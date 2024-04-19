@@ -1,7 +1,6 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 // importo los datos
 import data from "./data"
-import { useInterval as useSetInterval } from "../hooks/useInterval";
 import Filter from "./Filter";
 import Slide from "./Slide";
 const SLIDE_TIME = 2000;
